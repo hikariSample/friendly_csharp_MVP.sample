@@ -2,31 +2,21 @@
 
 namespace MVP.Sample.Winform.Models
 {
-    public class PersonViewModel : INotifyPropertyChanged
+    public class PersonViewModel : NotificationObject
     {
         private string _id;
         public string Id
         {
             get { return _id; }
-            set { _id = value; OnPropertyChanged("Id"); }
+            set { _id = value; NotifyPropertyChanged("Id"); }
         }
         private string _name;
 
         public string Name
         {
             get { return _name; }
-            set { _name = value; OnPropertyChanged("Name"); }
+            set { _name = value; NotifyPropertyChanged("Name"); }
         }
 
-        #region INotifyPropertyChanged 成员  
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged(string propertyName)
-        {
-            PropertyChangedEventHandler handler = PropertyChanged;
-            handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-        #endregion
     }
 }

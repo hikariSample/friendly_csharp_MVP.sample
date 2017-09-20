@@ -1,6 +1,6 @@
 ﻿using Microsoft.Practices.Prism.Commands;
+using MVP.Sample.WPF.Models;
 using MVP.Sample.WPF.Views.Person;
-using PersonViewModel = MVP.Sample.WPF.Models.PersonViewModel;
 
 namespace MVP.Sample.WPF.Presenters
 {
