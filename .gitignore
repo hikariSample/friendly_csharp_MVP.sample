@@ -2,9 +2,7 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/MVP.Sample/.vs
-/MVP.Sample/MVP.Sample.Winform/bin
-/MVP.Sample/MVP.Sample.Winform/obj
-/MVP.Sample/MVP.Sample.WPF/bin
-/MVP.Sample/MVP.Sample.WPF/obj
-/MVP.Sample/packages
+.vs
+*/bin
+*/obj
+*/packages

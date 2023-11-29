@@ -1,7 +1,4 @@
-﻿using System.ComponentModel;
-using Microsoft.Practices.Prism.Commands;
-
-namespace MVP.Sample.WPF.Models
+﻿namespace MVP.Sample.WPF.Models
 {
     public class PersonViewModel : NotificationObject
     {

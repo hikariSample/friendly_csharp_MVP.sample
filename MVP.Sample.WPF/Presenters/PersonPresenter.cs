@@ -1,5 +1,4 @@
-﻿using Microsoft.Practices.Prism.Commands;
-using MVP.Sample.WPF.Models;
+﻿using MVP.Sample.WPF.Models;
 using MVP.Sample.WPF.Views.Person;
 
 namespace MVP.Sample.WPF.Presenters
